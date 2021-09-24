@@ -1,5 +1,5 @@
 # Securing Services
-Presented September 9, 2021
+Presented September 23, 2021
 
 ## Lab Procedure
 Each lab VM is configured with various insecure services, as well as a check command to check if certain severe
