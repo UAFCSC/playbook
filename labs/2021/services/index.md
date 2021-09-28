@@ -31,3 +31,14 @@ Information on securing MariaDB can be found in their knowledge base:
 Information on OpenSSH Server's configuration file can be found here:
 [https://www.ssh.com/academy/ssh/sshd_config](https://www.ssh.com/academy/ssh/sshd_config). The configuration file
 itself is in `/etc/ssh/sshd_config`.
+
+## Lab Setup
+### CSC vSphere
+The template for this lab is available on our vSphere instance.
+
+### Manual Setup
+All of the required scripts can be found here:
+[https://gist.github.com/katlyn/21bcf3d68bb52e03abf598f4db697e74](https://gist.github.com/katlyn/21bcf3d68bb52e03abf598f4db697e74).
+You are able to use `git` to clone all required files with the link provided on the gist's page. Running `bash setup.sh` will install all required dependencies, implement insecure services, and compile and install the check script.
+`setup.sh` expects an Ubuntu-based system to be used. **Using this script *will* make the machine it is run on
+insecure.** Do not use it unless you are on a VM or otherwise prepared for the consequences.
